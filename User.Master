@@ -1,0 +1,222 @@
+﻿  <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="WebApplication1.User" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.min(4).css" rel="stylesheet" />
+    <link href="Content/icofont.css" rel="stylesheet" />
+
+    <link href="Content/styleslide.css" rel="stylesheet" />
+
+    
+<!--===============================================================================================-->
+<!----------------- footer------------------------------>
+ <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    
+    
+<!--===============================================================================================-->
+    <!--footer -->                                                                   
+
+   
+   
+    
+    <link href="Content/Footer-with-social-icons.css" rel="stylesheet" />
+
+</head>
+
+
+
+
+<body>
+         <nav class="navbar navbar-expand-lg navbar-default " style="padding-top:-20px;margin-bottom: -20px; background-color:black ; padding:20px">
+  
+        <img src="images/lock2.png" style="width:55px" />
+        <a class="navbar-brand" href="#" style="color:white;font-family:Georgia;font-size:30px;margin-right:45px" >CyberSpace</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+            <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="homeuser.aspx" style="color:white;font-size:20px">Home</a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutus" style="color:white;font-size:20px">About</a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white;font-size:20px">
+        Cyber World
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         
+         
+          <a class="dropdown-item" href="agencyuser.aspx">Cyber Agencies</a>
+            <a class="dropdown-item" href="fraudsuser.aspx">Cyber Frauds
+            </a>
+             <a class="dropdown-item" href="lawuser.aspx"> Cyber Laws </a>
+            
+        </div>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white;font-size:20px">
+          Tools
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         
+          <a class="dropdown-item" href="phishingstat.aspx">Phishing </a>
+          <a class="dropdown-item" href="defacementstat.aspx">Defacement</a>
+            <a class="dropdown-item" href="malwarestat.aspx">Malware</a>
+            <a class="dropdown-item" href="spamstat.aspx">Spam</a>
+             <a class="dropdown-item" href="ransomewarestat.aspx">Ransomeware</a>
+             <a class="dropdown-item" href="userexperthome.aspx"> Ask The Expert</a>
+             <a class="dropdown-item" href="useranswer.aspx"> View Answers from Experts</a>
+        </div>
+     </li>
+      
+    <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        
+       
+      
+   
+       <li class="nav-item">
+        <a class="nav-link" href="cyberattackuser.aspx" style="color:white;font-size:20px"> Cyber Threats</a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+       </ul>
+   <ul class="navbar-nav ml-auto" style="margin-right:100px">
+
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white;font-size:20px">
+          <img src="images/user3.png" style="width:40px" />
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="logout.aspx">Log Out</a>
+          <a class="dropdown-item" href="changepassword.aspx">Change Password </a> </div></li>
+</ul>
+  </div>
+</nav>
+
+        <div class="body-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    
+       <footer  id="myFooter" style="background-image:url('images/footerback.jpg'); background-size:cover; opacity:0.9">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 myCols"> <br /> <br />
+                    <img src="images/cybersecurity.png" style=" padding:20px; width :220px" />
+                    <h3  style="font-family:Gabriola;font-weight:bold; margin-top:-20px;"> &nbsp &nbsp   &nbsp  &nbsp  &nbsp CyberSpace</h3>
+                </div>
+
+                <div class="col-sm-2 myCols"></div>
+
+
+
+                <div class="col-sm-4 myCols"> <br /> <br /><br />
+                    <h2 style="font-family:Gabriola;font-size:90px;font-weight:bold"> CyberSpace</h2>
+                    <p style="text-align:left; font-family:Gabriola;text-align:center;font-size:30px">
+                        Your gateway to Safe Browsing
+                    </p>
+                </div>
+               <div class="col-sm-1 myCols"></div>
+              
+                <div class="col-sm-3 myCols" style="text-align:left"><br /> <br /> <br />
+                    <h5 style="font-family:Georgia;font-weight:bold">Quick Links</h5>
+                    <ul>
+                        <li><a href="homeuser.aspx" style="font-weight:bold">-Home</a></li>
+                        <li><a href="cyberattackuser.aspx" style="font-weight:bold">- Contact Us</a></li>
+                       <!-- <li><a href="signin.aspx" style="font-weight:bold">-Sign In</a></li> -->
+                       <!-- <li><a href="expertsignin.aspx" style="font-weight:bold">-Expert Sign In</a></li> -->
+                      <!--   <li><a href="createaccount.aspx" style="font-weight:bold">-Register</a></li>-->
+                        <!--<li><a href="#aboutus" style="font-weight:bold">-About Us</a></li>-->
+                         <li><a href="malwarestat.aspx" style="font-weight:bold">- Detect Malware</a></li>
+                         <li><a href="phishingstat.aspx" style="font-weight:bold">- Detect Phishing</a></li>
+                         <li><a href="defacementstat.aspx" style="font-weight:bold">- Detect Defacement</a></li>
+                         <li><a href="spamstat.aspx" style="font-weight:bold">- Detectect Spam </a></li>
+                        <li><a href="ransomwarestat.aspx" style="font-weight:bold">- Detect Ransomware </a></li>
+                        <li><a href="userexperthome.aspx" style="font-weight:bold">- Ask Experts </a></li>
+                         <li><a href="useranswer.aspx" style="font-weight:bold">-View Answers </a></li>
+
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+        <div class="social-networks">
+            <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://mail.google.com/" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        
+    </footer>
+            
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.min(4).js"></script>
+     <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+</body>
+</html>

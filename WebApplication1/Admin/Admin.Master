@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebApplication1.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="../Content/styleslide.css" rel="stylesheet" />
+   
+</head>
+<body style="background-image:url('316894.jpg');background-repeat:no-repeat; background-size:cover"  >
+    <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar" style="background-color:#2F4F4F; height:1500px">
+                <div class="sidebar-header" style="background-color:#008080	">
+                    <h3 style="font-weight:bolder;font-size:xx-large"> Admin </h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                   
+                    <li class="active" style="background-color:#2F4F4F">
+                        <a href="home.aspx"style="background-color:#2F4F4F ;color:white ">Home</a>
+                        
+                    </li>
+                    <li>
+                       
+                        <a href="cybfraud.aspx" style="color:white "    >Add Cyber Fraud</a>
+                    
+                        <ul class="list-unstyled"   >
+                            <li><a href="viewcyberfrauds.aspx" style="color:white">View Cyber Frauds</a></li>
+                            
+                        </ul>
+                       
+                        
+                    </li>
+                    <li>
+                        <a href="cybagency.aspx"style="color:white ">Add Cyber Agency</a>
+                         <ul class="list-unstyled" >
+                            <li><a href="viewcyberagency.aspx" style="color:white">View Cyber Agency</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="cyberexpert2.aspx" style="color:white "> Add Cyber Expert</a>
+                        <ul class="list-unstyled" >
+                            <li><a href="viewcyberexperts.aspx" style="color:white">View Cyber Expert</a></li>
+                            
+                        </ul>
+                    </li>
+                      <li>
+                        <a href="cyblaw.aspx" style="color:white "> Add Cyber Law </a>
+                          <ul class="list-unstyled" >
+                            <li><a href="viewcyberlaws.aspx" style="color:white">View Cyber Laws</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="logoutadmin.aspx" style="color:white "> Log out </a>
+                    </li>
+                   
+                </ul>
+
+              
+            </nav> 
+
+            <!-- Page Content Holder -->
+            <div id="content">
+                <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder> 
+        </div>
+     </div> </div>
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+
+     <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+</body>
+</html>
